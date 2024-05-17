@@ -56,7 +56,7 @@ btnmode.addEventListener("click", function () {
   }
 });
 
-// Functions
+
 function getUserData(gitUrl) {
   fetch(gitUrl)
     .then((response) => response.json())
